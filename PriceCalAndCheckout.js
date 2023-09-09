@@ -11,37 +11,37 @@ function calculatePrice() {
     switch (document.getElementById("processor").value) {
       case "317.24":
         document.getElementById("productImage").src =
-          "/HW2-JS/assets/intelCorei5-13600k.jpg";
+          "/Personal-Webpage/assets/intelCorei5-13600k.jpg";
 
         break;
       case "364.99":
         document.getElementById("productImage").src =
-          "/HW2-JS/assets/intelCorei7-13700k.jpg";
+          "/Personal-Webpage/assets/intelCorei7-13700k.jpg";
 
         break;
       case "551.99":
         document.getElementById("productImage").src =
-          "/HW2-JS/assets/intelCorei9-13900k.jpg";
+          "/Personal-Webpage/assets/intelCorei9-13900k.jpg";
 
         break;
       case "384.99":
         document.getElementById("productImage").src =
-          "/HW2-JS/assets/Ryzen-7800X3D.jpg";
+          "/Personal-Webpage/assets/Ryzen-7800X3D.jpg";
 
         break;
       case "478.54":
         document.getElementById("productImage").src =
-          "/HW2-JS/assets/Ryzen-7950X3D.jpg";
+          "/Personal-Webpage/assets/Ryzen-7950X3D.jpg";
 
         break;
       case "659.00":
         document.getElementById("productImage").src =
-          "/HW2-JS/assets/Ryzen-7950X3D.jpg";
+          "/Personal-Webpage/assets/Ryzen-7950X3D.jpg";
 
         break;
       default:
         document.getElementById("productImage").src =
-          "/HW2-JS/assets/intelCorei5-13600k.jpg";
+          "/Personal-Webpage/assets/intelCorei5-13600k.jpg";
     }
 
     let memoryPrice = document.getElementById("memory").value;
@@ -50,20 +50,20 @@ function calculatePrice() {
     switch (document.getElementById("memory").value) {
       case "214.99":
         document.getElementById("productImage2").src =
-          "/HW2-JS/assets/ddr5_32gb_6400.jpg";
+          "/Personal-Webpage/assets/ddr5_32gb_6400.jpg";
         break;
       case "279.99":
         document.getElementById("productImage2").src =
-          "/HW2-JS/assets/ddr5_48gb_8000.jpg";
+          "/Personal-Webpage/assets/ddr5_48gb_8000.jpg";
 
         break;
       case "199.99":
         document.getElementById("productImage2").src =
-          "/HW2-JS/assets/ddr5_32gb_7800.jpg";
+          "/Personal-Webpage/assets/ddr5_32gb_7800.jpg";
         break;
       default:
         document.getElementById("productImage2").src =
-          "/HW2-JS/assets/ddr5_32gb_6400.jpg";
+          "/Personal-Webpage/assets/ddr5_32gb_6400.jpg";
     }
 
     let moboPrice = document.getElementById("mobo").value;
@@ -72,19 +72,19 @@ function calculatePrice() {
     switch (document.getElementById("mobo").value) {
       case "309.99":
         document.getElementById("productImage3").src =
-          "/HW2-JS/assets/Intel_DDR5_13th.jpg";
+          "/Personal-Webpage/assets/Intel_DDR5_13th.jpg";
         break;
       case "199.00":
         document.getElementById("productImage3").src =
-          "/HW2-JS/assets/AMD_AM5.jpg";
+          "/Personal-Webpage/assets/AMD_AM5.jpg";
         break;
       case "637.66":
         document.getElementById("productImage3").src =
-          "/HW2-JS/assets/AMD_AM5_2.jpg";
+          "/Personal-Webpage/assets/AMD_AM5_2.jpg";
         break;
       default:
         document.getElementById("productImage3").src =
-          "/HW2-JS/assets/Intel_DDR5_13th.jpg";
+          "/Personal-Webpage/assets/Intel_DDR5_13th.jpg";
     }
 
     let cpuCoolerPrice = document.getElementById("cpuCooler").value;
@@ -93,15 +93,15 @@ function calculatePrice() {
     switch (document.getElementById("cpuCooler").value) {
       case "89.90":
         document.getElementById("productImage4").src =
-          "/HW2-JS/assets/CPU_AirCool.jpg";
+          "/Personal-Webpage/assets/CPU_AirCool.jpg";
         break;
       case "269.99":
         document.getElementById("productImage4").src =
-          "/HW2-JS/assets/corsairAIO.jpg";
+          "/Personal-Webpage/assets/corsairAIO.jpg";
         break;
       default:
         document.getElementById("productImage4").src =
-          "/HW2-JS/assets/CPU_AirCool.jpg";
+          "/Personal-Webpage/assets/CPU_AirCool.jpg";
     }
 
     let psuPrice = document.getElementById("psu").value;
@@ -110,15 +110,15 @@ function calculatePrice() {
     switch (document.getElementById("psu").value) {
       case "149.99":
         document.getElementById("productImage5").src =
-          "/HW2-JS/assets/msi1000wGold.jpg";
+          "/Personal-Webpage/assets/msi1000wGold.jpg";
         break;
       case "159.99":
         document.getElementById("productImage5").src =
-          "/HW2-JS/assets/evga1000wGold.jpg";
+          "/Personal-Webpage/assets/evga1000wGold.jpg";
         break;
       default:
         document.getElementById("productImage5").src =
-          "/HW2-JS/assets/msi1000wGold.jpg";
+          "/Personal-Webpage/assets/msi1000wGold.jpg";
     }
 
     let gpuPrice = document.getElementById("gpu").value;
@@ -127,19 +127,19 @@ function calculatePrice() {
     switch (document.getElementById("gpu").value) {
       case "1310.00":
         document.getElementById("productImage6").src =
-          "/HW2-JS/assets/rtx3080ti_evga.jpg";
+          "/Personal-Webpage/assets/rtx3080ti_evga.jpg";
         break;
       case "625.00":
         document.getElementById("productImage6").src =
-          "/HW2-JS/assets/rtx3070ti_msi.jpg";
+          "/Personal-Webpage/assets/rtx3070ti_msi.jpg";
         break;
       case "1774.99":
         document.getElementById("productImage6").src =
-          "/HW2-JS/assets/rtx3090ti_evga.jpg";
+          "/Personal-Webpage/assets/rtx3090ti_evga.jpg";
         break;
       default:
         document.getElementById("productImage6").src =
-          "/HW2-JS/assets/rtx3080ti_evga.jpg";
+          "/Personal-Webpage/assets/rtx3080ti_evga.jpg";
     }
 
     let casePrice = document.getElementById("case").value;
@@ -148,19 +148,19 @@ function calculatePrice() {
     switch (document.getElementById("case").value) {
       case "144.99":
         document.getElementById("productImage7").src =
-          "/HW2-JS/assets/O11_D_EVO.jpg";
+          "/Personal-Webpage/assets/O11_D_EVO.jpg";
         break;
       case "184.99":
         document.getElementById("productImage7").src =
-          "/HW2-JS/assets/Y60_black.jpg";
+          "/Personal-Webpage/assets/Y60_black.jpg";
         break;
       case "127.99":
         document.getElementById("productImage7").src =
-          "/HW2-JS/assets/corsairCase.jpg";
+          "/Personal-Webpage/assets/corsairCase.jpg";
         break;
       default:
         document.getElementById("productImage7").src =
-          "/HW2-JS/assets/O11_D_EVO.jpg";
+          "/Personal-Webpage/assets/O11_D_EVO.jpg";
     }
 
     let m2Price = document.getElementById("m2").value;
@@ -169,15 +169,15 @@ function calculatePrice() {
     switch (document.getElementById("m2").value) {
       case "129.99":
         document.getElementById("productImage8").src =
-          "/HW2-JS/assets/m2SamProGen4.jpg";
+          "/Personal-Webpage/assets/m2SamProGen4.jpg";
         break;
       case "74.25":
         document.getElementById("productImage8").src =
-          "/HW2-JS/assets/m2SamProGen4_1Tb.jpg";
+          "/Personal-Webpage/assets/m2SamProGen4_1Tb.jpg";
         break;
       default:
         document.getElementById("productImage8").src =
-          "/HW2-JS/assets/m2SamProGen4.jpg";
+          "/Personal-Webpage/assets/m2SamProGen4.jpg";
     }
     document.getElementById("price").innerText = `$${price.toFixed(2)}`;
   } catch (error) {
