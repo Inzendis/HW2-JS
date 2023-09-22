@@ -41,8 +41,7 @@ nav {
   background-color: #111;
 }
 
-img {
-  padding-top: 25px;
+.adobeAnimationContainer {
   margin-right: auto;
   margin-left: auto;
   display: flex;
