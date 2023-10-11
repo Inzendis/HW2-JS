@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:template match="/Personal-Webpage/textbooks">
+    <xsl:template match="/textbooks">
         <html>
             <head>
               <meta charset="UTF-8" />
                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                <title>Christian Santiago - Personal Web Page</title>
-               <link rel="stylesheet"  type="text/css" href="/Personal-Webpage/css/xml.css"/>
+                 <link rel="stylesheet"  type="text/css" href="/Personal-Webpage/css/xml.css"/>
             </head>
             <body>
                <nav>
