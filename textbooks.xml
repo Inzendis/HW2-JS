@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="textbook.xsl"?>
 <textbooks>
-    <!--Micro Interfacing Book-->
     <book1>
         <title>Industrial Organizational Psycology</title>
         <author>
@@ -18,7 +17,6 @@
         <edition>8th</edition>
         <cover_type>Hardcover</cover_type>
     </book1>
-    <!--Advance Programming Book-->
     <book2>
         <title>Software Engineering: A Practitioner's Approach</title>
         <author>
@@ -35,7 +33,6 @@
         <edition>9th</edition>
         <cover_type>eBook</cover_type>
     </book2>
-    <!--Intenet Programming Book-->
     <book3>
         <title>Digital Signal Processing: Principles, Algorithms and Applications</title>
         <author>
