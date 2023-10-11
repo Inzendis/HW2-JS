@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="textbook.xsl"?>
+<textbooks>
+    <!--Micro Interfacing Book-->
+    <book1>
+        <title>Industrial Organizational Psycology</title>
+        <author>
+            <first_name>Michael</first_name>
+            <last_name>Aamodt</last_name>
+        </author>
+        <publisher>
+            <name>Cengage Learning</name>
+            <website>https://www.cengage.com/</website>
+        </publisher>
+        <year_of_publication>2015</year_of_publication>
+        <ISBN>978-1305118423</ISBN>
+        <book_website>https://www.cengage.com/c/industrial-organizational-psychology-an-applied-approach-8e-aamodt/9781305118423/?searchIsbn=978-1305118423</book_website>
+        <edition>8th</edition>
+        <cover_type>Hardcover</cover_type>
+    </book1>
+    <!--Advance Programming Book-->
+    <book2>
+        <title>Software Engineering: A Practitioner's Approach</title>
+        <author>
+            <first_name>Roger</first_name>
+            <last_name>Pressman</last_name>
+        </author>
+        <publisher>
+            <name>McGraw Hill</name>
+            <website>https://www.mheducation.com/</website>
+        </publisher>
+        <year_of_publication>2020</year_of_publication>
+        <ISBN>9781259872976</ISBN>
+        <book_website>https://www.mheducation.com/highered/product/software-engineering-practitioner-s-approach-pressman-maxim/M9781259872976.html#authorbios/</book_website>
+        <edition>9th</edition>
+        <cover_type>eBook</cover_type>
+    </book2>
+    <!--Intenet Programming Book-->
+    <book3>
+        <title>Digital Signal Processing: Principles, Algorithms and Applications</title>
+        <author>
+            <first_name>John</first_name>
+            <last_name>Proakis</last_name>
+        </author>
+        <publisher>
+            <name>Pearson</name>
+            <website>https://www.pearson.com/en-us.html</website>
+        </publisher>
+        <year_of_publication>2021</year_of_publication>
+        <ISBN>978-0-13-145091-2</ISBN>
+        <book_website>https://www.pearson.com/en-us/subject-catalog/p/digital-signal-processing-principles-algorithms-and-applications/P200000003415/9780137348657</book_website>
+        <edition>5th</edition>
+        <cover_type>eBook</cover_type>
+    </book3>
+</textbooks>
